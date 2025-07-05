@@ -28,7 +28,7 @@ CONNECT BY LEVEL <= 30;
 SELECT * FROM item;
 
 ```
- 
+- Tested on Apache TomCat 9
 - java/com/my/controller/DBConnection.java
   - Tests DB Connection
 - java/com/item/controller/itemController.java
