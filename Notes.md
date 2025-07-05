@@ -28,6 +28,22 @@ CONNECT BY LEVEL <= 30;
 SELECT * FROM item;
 
 ```
+- Exisiting context.xml file for testing
+```xml
+<Context>
+
+  <Resource name="jdbc/connection"
+            type="javax.sql.DataSource"
+            username="hr"
+            password="hr"
+            driverClassName="oracle.jdbc.OracleDriver"
+            url="jdbc:oracle:thin:@//localhost:1521/orclpdb"
+            />
+
+</Context>
+```
+
+
 - Tested on Apache TomCat 9
 - java/com/my/controller/DBConnection.java
   - Tests DB Connection
